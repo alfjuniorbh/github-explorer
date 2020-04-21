@@ -75,6 +75,7 @@ export const Repositories = styled.div`
 
     div {
       margin-left: 16px;
+      flex: 1;
 
       strong {
         font-size: 20px;
@@ -93,4 +94,10 @@ export const Repositories = styled.div`
       color: #cbcbd6;
     }
   }
+`;
+
+export const Error = styled.span`
+  display: block;
+  color: #c53030;
+  margin-top: 8px;
 `;
